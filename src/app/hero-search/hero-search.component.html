@@ -1,0 +1,11 @@
+<input class="pesquisar" placeholder="Pesquisar" #searchBox (input)="search(searchBox.value)" />
+
+<table striped="true">
+  <tr *ngFor="let c of compromissos$ | async">
+    <td>{{c.nome}}</td>
+    <td>{{c.horario}}</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+  
