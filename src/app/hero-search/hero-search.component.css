@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+table td, th {
+    text-align: left;
+    border-collapse: collapse;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+tr:nth-child(even) {
+    background-color: #BBE8DB;
+}
+table, th , td  {
+  border-collapse: collapse; 
+}
+table tr:nth-child(odd) {
+}
+table tr:nth-child(even) {
+}
+.titulos{
+    background-color: #32BA91;
+}
+.tableTitulo{
+    color: #ffffff;   
+}
+.tableHorario{
+    color: #ffffff;
+}
+.charlatao{
+  /*Dani Amorzinho 3D*/
+}
+.inserir{
+  width: 100%;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #666666;
+  background-color:transparent;
+  font-size: 20px;
+}
+.horario{
+    width: 100%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    background-color:transparent;
+}
+.pesquisar{
+  margin-left: 25%;
+  background-color: #BBE8DB;
+  border-radius: 25px;
+  color: #ffffff;
+  width: 50%;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  margin-bottom: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(138, 135, 135, 0.5);
+}

@@ -1,0 +1,23 @@
+<app-hero-search></app-hero-search>
+<div class="centralizar">
+<table striped="true"*ngIf="compromissos">
+  <tr class="titulos">
+    <th class="tableTitulo">Titulo</th>
+    <th class="tableHorario">Horário/Data</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr *ngFor="let c of compromissos">
+    <td>{{c.nome}}</td>
+    <td>{{c.horario}}</td>
+    <td><button (click)="save(c)">Editar</button></td>
+    <td><button (click)="delete(c)">Excluir</button></td>
+  </tr>
+  <tr>
+    <td><input class="inserir" placeholder="Título" #nome /></td>
+    <td><input class="horario" #horario placeholder="DD/MM/AAAA-hh-mm" /></td>
+    <td></td>
+    <td><button (click)="add(nome.value,horario.value)">Salvar</button></td>
+  </tr>
+</table>
+</div>
